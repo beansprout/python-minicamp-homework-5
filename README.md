@@ -2,22 +2,16 @@
 
 ## Instructions
 ---
-1. Fork and clone this repo.
+[x] 1. Fork and clone this repo.
 
+[x] 2. Create your virtual environment and run the `initdb.py` script.  Start your server.
 
-
-2. Create your virtual environment and run the `initdb.py` script.  Start your server.
-
-
-
-3. Modify the `/static/scripts/home.js` file to add input validation to the submit form.  
+[x] 3. Modify the `/static/scripts/home.js` file to add input validation to the submit form.  
 
 	* Check for empty input fields
 	* Check fields for content type (should it be a number?)
 	* Stop the form from submitting if any of those fail
 	* Alert an appropriate error message
-
-
 
 ---
 
@@ -25,11 +19,7 @@
 
 1. Add an input field and button that change all of the page's text to the color entered.
 
-
-
 2. Add a button that hides everything on the page when it is clicked. (hint: look up the `display` style)
-
-
 
 ---
 #### Congratulations on finishing Homework #5!
