@@ -17,9 +17,9 @@
 
 ### Extra Credit
 
-1. Add an input field and button that change all of the page's text to the color entered.
+[x]1. Add an input field and button that change all of the page's text to the color entered.
 
-2. Add a button that hides everything on the page when it is clicked. (hint: look up the `display` style)
+[x]2. Add a button that hides everything on the page when it is clicked. (hint: look up the `display` style)
 
 ---
 #### Congratulations on finishing Homework #5!

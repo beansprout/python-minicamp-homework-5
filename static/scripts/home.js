@@ -1,6 +1,4 @@
-// document.getElementById('changeColor').addEventListener('click', function() {
-//   console.log('you clicked me!');
-// });
+
 
 function validateForm() {
     var name = document.getElementById('nameInput').value;
@@ -16,4 +14,12 @@ function validateForm() {
       alert('Age input invalid');
     }
     return false;
+}
+
+function changetext() {
+  document.getElementById("new-pet-form").style.color = "4d4dff";
+}
+
+function invisible() {
+    document.getElementById("body").style.display = "none";
 }

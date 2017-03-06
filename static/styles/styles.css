@@ -1,3 +1,19 @@
 body {
 	background: whitesmoke;
+	color: #3399ff;
+	font-size: 14pt;
+	font-family: cursive;
+}
+
+h1 {
+	font-size: 18pt;
+}
+
+button, #submit {
+	background: yellow;
+
+}
+
+#invisibility {
+	background: #cce6ff;
 }

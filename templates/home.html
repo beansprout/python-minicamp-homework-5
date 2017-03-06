@@ -1,24 +1,33 @@
-<head>
-    <link rel="stylesheet" type="text/css" href="/static/styles/styles.css">
-</head>
 <html>
 
-<body>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/static/styles/styles.css">
+    </head>
 
-    <h1 class="header">My Pets</h1>
 
-    <form id="new-pet-form" action="/new-pet" method="POST" onsubmit="return validateForm()">
-        Name:
-        <input id="nameInput" name="name" />
-        <br> Species:
-        <input id="speciesInput" name="species" />
-        <br> Age:
-        <input id="ageInput" name="age" />
-        <br>
-        <input id="submit" type="submit" value="Submit" />
-    </form>
+    <body id="body">
 
-    <script src="static/scripts/home.js"></script>
-</body>
+        <h1 class="header">My Pets</h1>
+
+        <form id="new-pet-form" action="/new-pet" method="POST" onsubmit="return validateForm()">
+            Name:
+            <input id="nameInput" name="name" />
+            <br> Species:
+            <input id="speciesInput" name="species" />
+            <br> Age:
+            <input id="ageInput" name="age" />
+            <br>
+            <input id="submit" type="submit" value="Submit" />
+            <br>
+        </form>
+
+        <h1 class="header">Change Text Color</h1>
+        <button onclick="changetext()">Set text color</button>
+        <script src="static/scripts/home.js "></script>
+
+        <button id="invisibility" onclick="invisible()">Invisibility Mode</button>
+        </h1>
+
+    </body>
 
 </html>
